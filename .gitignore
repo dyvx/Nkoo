@@ -1,0 +1,24 @@
+# Dependencies and generated output
+node_modules/
+.next/
+build/
+dist/
+coverage/
+*.tsbuildinfo
+__pycache__/
+.venv/
+
+# Environment and deployment credentials
+.env*
+!.env.example
+.vercel/
+.netrc
+.git-credentials
+
+# Local QA / workspace artifacts
+.arena/
+.cache/
+playwright-report/
+test-results/
+*.log
+.DS_Store
